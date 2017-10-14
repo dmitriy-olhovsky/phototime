@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'GothamRounded';
+  src: url("../fonts/GothamRounded-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GothamRounded';
+  src: url("../fonts/GothamRounded-Medium.woff2") format("woff2"), url("../fonts/GothamRounded-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GothamRounded';
+  src: url("../fonts/GothamRounded-Book.woff2") format("woff2"), url("../fonts/GothamRounded-Book.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+
+body {
+  font-family: 'GothamRounded', Arial, sans-serif; }
+
+/*Header*/
+.ba-header {
+  background: #392733 url(../img/bg-header.jpg) 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 750px;
+  position: relative; }
+  .ba-header__menu {
+    list-style: none;
+    display: table;
+    margin: 0 auto;
+    padding-top: 40px; }
+  .ba-header__item {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 50px; }
+  .ba-header__item-link {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none; }
+  .ba-header__info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  .ba-header__title {
+    color: #fff;
+    text-transform: uppercase; }
+
+.ba-social-icons {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+  .ba-social-icons__item {
+    padding: 0 5px; }
+    .ba-social-icons__item svg {
+      fill: #fff;
+      -webkit-transition: fill ease .3s;
+      -o-transition: fill ease .3s;
+      transition: fill ease .3s; }
+    .ba-social-icons__item:hover svg {
+      fill: #16a085; }
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px; }
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
